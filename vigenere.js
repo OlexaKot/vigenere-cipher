@@ -38,7 +38,6 @@ function encrypt(plaintext, key) {
 			ciphertext += encryptedLetter;
 			counter++;
 
-			console.log(currentCharacter, " ", encryptedLetter, " ", oldIndex, " ", currentKey, " ", newIndex);
 		}
 
 		else {
